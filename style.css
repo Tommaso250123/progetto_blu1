@@ -1,0 +1,220 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+    }
+    .Titolo {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 30px;
+    height: 20vh;
+    color:white;
+    }
+    .button{
+        border:none;
+        background-color:rgb(214, 194, 14);
+        width:120px;
+        height:60px;
+        margin-left: 30px;
+    }
+    .coloretesto{
+        color:white
+    }
+    .img1{
+        background: linear-gradient(0deg, rgba(21,108,192,0.5410539215686274) 20%, rgba(2, 10, 18, 0.874) 90%),url(header.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        height:100vh;
+    }
+    .positionwave {
+        position: absolute;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .sottotitolo {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 30px;
+    }
+    .h2-custom {
+        font-family: 'Righteous', cursive;
+        font-size: 45px;
+        color: #1566C0;
+    }
+    /* IMMAGINI */
+    .bground-img1 {
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(44, 44, 44, 0.877) 100%),url(./1.png);
+        height: 40vh;
+        width: 15vw;
+    }
+    .bground-img2 {
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(44, 44, 44, 0.877) 100%),url(./2.png);
+        height: 40vh;
+        width: 15vw; 
+    }
+    .bground-img3 {
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(44, 44, 44, 0.877) 100%),url(./3.png);
+        height: 40vh;
+        width: 16vw;    
+    }
+    .bground-img4 {
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(44, 44, 44, 0.877) 100%),url(./4.png);
+        background-size: cover;
+        height: 40vh;
+        width: 15vw;
+    }
+    .icon {
+        font-size: 30px;
+        color: #ffff;
+        padding-top: 14vh;
+        display: flex;
+    }
+    .titoloimg {
+        display: flex;
+        align-items: flex-end;
+        font-family: 'Righteous', cursive;
+        color:white;
+        font-size: 30px; 
+        padding-top: 2vh; 
+    }
+    .lineagialla {
+        border-bottom: 2px solid #FFC106;
+        padding: 5px, 10px;
+        width: 100%
+    }
+    .testo-immagine {
+        color: white;
+        padding-top: 5vh;
+    }
+    .card {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    }
+    .titolocard {
+        font-family: 'Righteous', cursive; color: #1566C0;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .box-icon {
+        width:70px;
+        height: 70px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .number {
+        font-size: 40 px;
+        font-weight: 900;
+    }
+    .imgRound {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        justify-content: center;
+            border: 2px solid #1566C0 ;
+            padding: 5px;
+          }
+          h2 {
+            font-family: 'Righteous', cursive; color: #1566C0;
+          }
+          h4 {
+            font-family: 'Righteous', cursive; color: #1566C0;
+          }
+          .timelineUl{
+            list-style: none;
+          }
+          .timeline-content1 {
+            width:50%;
+            height: 20vh;
+            margin-bottom: 50px;
+            display: list-item;
+          }
+          .timeline-content2 {
+            width:50%;
+            height: 20vh;
+            margin-top: 50px;
+            display: list-item;
+            padding-left: 100px;
+          }
+          .timeline1{
+            border-left: 2px solid#1566C0;
+            position: relative;
+            /* padding-left: 100px; */
+          }
+          .circleRight ::after {
+            content:'';
+            width: 30px;
+            height:30px;
+            border-radius: 50%;
+            background-color: white;
+            border: 2px#1566C0;
+            position: absolute;
+            right: calc(100px + 180px);
+          }
+          .circleLeft ::before {
+            content:'';
+            width: 30px;
+            height:30px;
+            border-radius: 50%;
+            background-color: white;
+            border: 5px#1566C0;
+            position: absolute;
+            right: calc(100px + 180px);
+          }
+          .button-5 {
+            align-items: center;
+            background-clip: padding-box;
+            background-color: #1566C0;
+            border: 1px solid transparent;
+            border-radius: .25rem;
+            box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            justify-content: center;
+            line-height: 1.25;
+            margin: 0;
+            min-height: 3rem;
+            padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+            position: relative;
+            text-decoration: none;
+            transition: all 250ms;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: baseline;
+            width: auto;
+          }
+          
+          .button-5:hover,
+          .button-5:focus {
+            background-color: #FFC106;
+            box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+          }
+          
+          .button-5:hover {
+            transform: translateY(-1px);
+          }
+          
+          .button-5:active {
+            background-color: #FFC106;
+            box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+            transform: translateY(0);
+          }
+          .footer-bg{
+            background: linear-gradient(180deg, rgba(255,255,255,0.9) 9%, rgba(0,0,0,0.7) 84%), url(/footer.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:80vh;
+          }
+          .footer-title {
+            font-family: 'Righteous', cursive;
+            color:#FFC106;
+          }
